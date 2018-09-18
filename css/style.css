@@ -143,3 +143,25 @@ li img {
     margin-left: 17.5%;
 }
 
+/* #5 Split the area of the application */
+body {
+    position: relative;
+    }
+
+/* #5 Channel aare is on the left */
+
+
+#channels  {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    }
+
+/* #5 Channel ara is on the right */
+#chat{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right:0;
+    }
