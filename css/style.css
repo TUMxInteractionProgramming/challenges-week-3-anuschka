@@ -27,7 +27,7 @@ button, strong {
 /* APP BAR */
 
 /* #4 #sweat address both #app-bar s */
-h1 {
+#app-bar {
     background-color: #3F51B5;
     color: white;
 }
@@ -148,7 +148,7 @@ body {
     position: relative;
     }
 
-/* #5 Channel aare is on the left */
+/* #5 Channel area is on the left */
 
 
 #channels  {
