@@ -22,6 +22,28 @@ button, strong {
     text-transform: uppercase;
 }
 
+/* #5 Split the area of the application */
+body {
+    position: relative;
+    }
+
+/* #5 Channel area is on the left */
+
+
+#channels  {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    }
+
+/* #5 Channel ara is on the right */
+#chat{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right:0;
+    }
 
 
 /* APP BAR */
@@ -36,7 +58,26 @@ button, strong {
 }
 
 
+/* #5 Moocus icon justified botom */
+#app-img{
+    position: absolute;
+    bottom: 0px;
+}
+
+/* #5 Channel area is on the right */
+#app-name {
+    position: absolute;
+    left: 70px;
+    margin: 20px
+}
+
 /* CHANNELS LIST */
+/* #5 Scroll Channels in channel area */
+#channel-list{
+    position: relative;
+    top:0px;
+    overflow-y:auto;
+    }
 
 /* #4 #sweat #channels */
 ul {
@@ -146,28 +187,6 @@ li img {
     margin-left: 17.5%;
 }
 
-/* #5 Split the area of the application */
-body {
-    position: relative;
-    }
-
-/* #5 Channel area is on the left */
-
-
-#channels  {
-    width: 40%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    }
-
-/* #5 Channel ara is on the right */
-#chat{
-    width: 60%;
-    height: 100%;
-    position: absolute;
-    right:0;
-    }
 
 /* #5 Moocus icon justified botom */
 #app-img{
@@ -175,14 +194,14 @@ body {
     bottom: 0px;
 }
 
-/* #5 Channel ara is on the right */
+/* #5 Channel area is on the right */
 #app-name {
     position: absolute;
     left: 70px;
     margin: 20px
 }
 
-/* #5 Channel ara is on the right */
+/* #5 Message area is on the right */
 #message-name {
     position: absolute;
     left: 0px;
