@@ -30,6 +30,9 @@ button, strong {
 #app-bar {
     background-color: #3F51B5;
     color: white;
+    height: 56px;
+    position: relative;
+    padding: 16px;
 }
 
 
@@ -165,3 +168,24 @@ body {
     position: absolute;
     right:0;
     }
+
+/* #5 Moocus icon justified botom */
+#app-img{
+    position: absolute;
+    bottom: 0px;
+}
+
+/* #5 Channel ara is on the right */
+#app-name {
+    position: absolute;
+    left: 70px;
+    margin: 20px
+}
+
+/* #5 Channel ara is on the right */
+#message-name {
+    position: absolute;
+    left: 0px;
+    margin: 20px
+}
+
