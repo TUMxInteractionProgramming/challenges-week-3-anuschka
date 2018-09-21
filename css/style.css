@@ -200,3 +200,10 @@ li img {
     margin: 20px
 }
 
+/* #6 Add a filled star to the very right (16px from the edge) of your channel’s app bar.  */
+.app-bar #star{
+    position: absolute;
+    right:0;
+    margin: 16px;
+}
+
